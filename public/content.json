@@ -8,7 +8,7 @@
   "intro": {
     "zhLead": "歡迎來到 **人森百態 · 100 LIFE**，一檔由 Amidon 主持的 _素人聊天_ Podcast。節目風格輕鬆，主題是**生活經驗與故事**。",
     "zhDetail": "在這裡，我與他們聊。你是跨文化背景、被生活耽誤的民間高手、有故事的一般人、異鄉人、有趣的靈魂 — _想要分享真實感受或故事。_",
-    "enSupport": "Welcome to **100 LIFE**, a podcast of unscripted conversations with ordinary people carrying extraordinary stories."
+    "enSupport": "Welcome to **100 LIFE**, a podcast of unscripted conversations with ordinary people carrying extraordinary stories ."
   },
   "stats": {
     "totalEpisodes": "32"
@@ -70,7 +70,7 @@
     {
       "name": "SoundOn",
       "latin": "聲浪",
-      "url": "#"
+      "url": "https://player.soundon.fm/p/67edf0da-c4bc-4eec-8954-ecd64df6d104"
     },
     {
       "name": "KKBox",
@@ -106,7 +106,7 @@
   "bigCta": {
     "zhTitle": "想和我聊聊嗎 ?",
     "enTitle": "So, shall we _talk_ ?",
-    "zhBody": "人森百態100 LIFE 在找 : \n跨文化背景、被生活耽誤的民間高手、有故事的一般人、異鄉人、有趣的靈魂....你想要分享真實感受。",
+    "zhBody": "自備麥克風和錄音器材，小白也歡迎。",
     "enBody": "Tell me a story that needs to be heard — in Taipei, in Paris, or anywhere a microphone fits.",
     "buttonLabel": "訪談提案 · For a Project →"
   }
