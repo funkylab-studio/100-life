@@ -16,14 +16,19 @@ export default function App() {
   const [error, setError] = useState<string | null>(null)
   const [editing, setEditing] = useState(false)
 
-  /* Fetch content.json at runtime (with optional local override) */
+  /* Fetch content.json at runtime (with optional local override)
+     Source: VITE_CONTENT_URL (e.g. GitHub raw) if defined, else local /content.json */
   useEffect(() => {
     const override = loadOverride()
     if (override) {
       setContent(override)
       return
     }
-    fetch('/content.json', { cache: 'no-store' })
+    const remote = import.meta.env.VITE_CONTENT_URL as string | undefined
+    const url = remote
+      ? `${remote}${remote.includes('?') ? '&' : '?'}t=${Date.now()}`
+      : '/content.json'
+    fetch(url, { cache: 'no-store' })
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`)
         return r.json() as Promise<SiteContent>
