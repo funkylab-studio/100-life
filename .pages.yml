@@ -1,0 +1,170 @@
+##
+# Pages CMS configuration
+# Docs: https://pagescms.org/docs
+#
+# Connect this repo at https://app.pagescms.org — it will auto-detect this file
+# and build a friendly UI matching the fields below.
+##
+
+media:
+  input: public/assets
+  output: /assets
+
+content:
+  - name: site
+    label: Site content
+    path: public/content.json
+    type: file
+    format: json
+    fields:
+
+      # ─── Global meta ────────────────────────────────────────────────
+      - name: lastUpdate
+        label: Dernière mise à jour
+        type: string
+        description: "Affiché dans le bloc meta — ex: Jan. 2026"
+
+      - name: status
+        label: Status (bandeau recording)
+        type: string
+        description: "Ex: Recording · 錄音中"
+
+      - name: ctaUrl
+        label: CTA URL (mailto, lien, …)
+        type: string
+
+      - name: marquee
+        label: Texte du marquee (scroll haut)
+        type: string
+        description: "Sera répété 12x — termine par un espace et un séparateur"
+
+      # ─── Cover image ────────────────────────────────────────────────
+      - name: coverImage
+        label: Image de couverture (intro)
+        type: image
+
+      - name: coverCaption
+        label: Légende sous la cover
+        type: string
+
+      # ─── Intro block ────────────────────────────────────────────────
+      - name: intro
+        label: Intro — bloc d'accroche
+        type: object
+        fields:
+          - name: zhLead
+            label: Paragraphe chinois (titre d'accroche)
+            type: text
+            description: "Supporte **gras** (surligné or) et _italique_"
+          - name: zhDetail
+            label: Paragraphe chinois (détail)
+            type: text
+          - name: enSupport
+            label: Paragraphe anglais (support)
+            type: text
+
+      # ─── Stats ──────────────────────────────────────────────────────
+      - name: stats
+        label: Stats affichées
+        type: object
+        fields:
+          - name: totalEpisodes
+            label: Nombre total d'épisodes
+            type: string
+
+      # ─── Episodes list ──────────────────────────────────────────────
+      - name: episodes
+        label: Épisodes (les 2 derniers)
+        type: object
+        list: true
+        fields:
+          - name: number
+            label: Numéro (ex EP32)
+            type: string
+          - name: title
+            label: Titre complet
+            type: string
+          - name: subtitle
+            label: Sous-titre / description
+            type: text
+          - name: badge
+            label: Badge (NEW, APPLE, …)
+            type: string
+          - name: badgeLive
+            label: Badge live (pastille rouge pulse)
+            type: boolean
+            default: false
+          - name: duration
+            label: Durée affichée (ex 1H 18MIN)
+            type: string
+          - name: date
+            label: Date affichée (ex Dec. 7, 2025)
+            type: string
+          - name: image
+            label: Thumbnail (optionnel)
+            type: image
+            required: false
+          - name: embed
+            label: URL embed (Spotify / Apple Podcasts)
+            type: string
+            description: "Colle l'URL de l'iframe — format https://open.spotify.com/embed/episode/... ou https://embed.podcasts.apple.com/..."
+          - name: height
+            label: Hauteur du player en px (152 Spotify, 175 Apple)
+            type: number
+            default: 152
+
+      # ─── Upcoming trilogy ───────────────────────────────────────────
+      - name: upcoming
+        label: Trilogie 2025 (séries à venir)
+        type: object
+        list: true
+        fields:
+          - name: roman
+            label: Chiffre romain (Ⅰ, Ⅱ, Ⅲ)
+            type: string
+          - name: tag
+            label: Tag (ex Series One)
+            type: string
+          - name: title
+            label: Titre chinois
+            type: string
+          - name: desc
+            label: Description
+            type: text
+
+      # ─── Platforms ──────────────────────────────────────────────────
+      - name: platforms
+        label: Plateformes d'écoute
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Nom affiché
+            type: string
+          - name: latin
+            label: Sous-titre / latin
+            type: string
+          - name: url
+            label: URL
+            type: string
+
+      # ─── Big CTA ────────────────────────────────────────────────────
+      - name: bigCta
+        label: Bloc CTA (bas de page)
+        type: object
+        fields:
+          - name: zhTitle
+            label: Titre chinois
+            type: string
+          - name: enTitle
+            label: Titre anglais (supporte _italique_)
+            type: string
+          - name: zhBody
+            label: Corps chinois
+            type: text
+          - name: enBody
+            label: Corps anglais
+            type: text
+          - name: buttonLabel
+            label: Label bouton
+            type: string

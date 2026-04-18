@@ -1,0 +1,80 @@
+{
+  "lastUpdate": "Jan. 2026",
+  "status": "Recording · 錄音中",
+  "ctaUrl": "mailto:amidon@100life.show",
+  "marquee": "人森百態 · 100 Life · ",
+  "coverImage": "/assets/logo.jpeg",
+  "coverCaption": "人森百態 · 100 LIFE",
+  "intro": {
+    "zhLead": "歡迎來到 **人森百態 · 100 LIFE**，一檔由 Amidon 主持的 _素人聊聊_ Podcast。節目風格輕鬆，主題是**生活經驗與故事**。",
+    "zhDetail": "在這裡，我與他們聊。跨文化背景、被生活耽誤的民間高手、有故事的一般人、異鄉人、有趣的靈魂 — _你想要分享真實感受。_",
+    "enSupport": "Welcome to **100 LIFE**, a podcast of unscripted conversations with ordinary people carrying extraordinary stories — recorded between Taipei and Paris."
+  },
+  "stats": {
+    "totalEpisodes": "32"
+  },
+  "episodes": [
+    {
+      "number": "EP32",
+      "title": "阿杯的卡邦 · 慢走順",
+      "subtitle": "阿杯的 (かばん) 日式卡邦故事，慢走順的一集。A Taiwanese-Japanese culture cross-over, recorded over one long afternoon.",
+      "badge": "NEW",
+      "badgeLive": true,
+      "duration": "1H 18MIN",
+      "date": "Dec. 7, 2025",
+      "embed": "https://open.spotify.com/embed/episode/6Fz484UQjziV6WF8dzHJl0?utm_source=generator",
+      "height": 152
+    },
+    {
+      "number": "EP31",
+      "title": "食物的自尊心 · FT. KAY",
+      "subtitle": "錄一集崩潰 — KAY 講食物的自尊心。On food, dignity, and the small rituals that hold a life together.",
+      "badge": "APPLE",
+      "badgeLive": false,
+      "duration": "1H 43MIN",
+      "date": "Nov. 5, 2025",
+      "embed": "https://embed.podcasts.apple.com/fr/podcast/ep31-%E9%A3%9F%E7%89%A9%E3%81%AE%E8%87%AA%E5%B0%8A%E5%BF%83-%E9%8C%84%E4%B8%80%E9%9B%86%E5%B4%A9%E6%BD%B0-ft-kay/id1746807249?i=1000735394689&theme=light",
+      "height": 175
+    }
+  ],
+  "upcoming": [
+    {
+      "roman": "Ⅰ",
+      "tag": "Series One",
+      "title": "海外華人",
+      "desc": "異鄉人的故事與他們的經歷。Diaspora voices from Paris to Taipei — migration, memory, and the strange comfort of being elsewhere."
+    },
+    {
+      "roman": "Ⅱ",
+      "tag": "Series Two",
+      "title": "獨特視角",
+      "desc": "在地台灣人的觀點與生命體驗。The island through its own eyes — perspectives that don't make it onto the evening news."
+    },
+    {
+      "roman": "Ⅲ",
+      "tag": "Series Three",
+      "title": "時代記憶",
+      "desc": "回顧與探索我們對過去的好奇與思考。Memory as a collective act — what our parents saw, and what we make of it now."
+    }
+  ],
+  "platforms": [
+    { "name": "Spotify",        "latin": "綠色巨獸",   "url": "#" },
+    { "name": "Apple Podcasts", "latin": "蘋果",       "url": "#" },
+    { "name": "SoundOn",        "latin": "聲浪",       "url": "#" },
+    { "name": "KKBox",          "latin": "可可盒",     "url": "#" },
+    { "name": "MixerBox",       "latin": "混音盒",     "url": "#" },
+    { "name": "Castbox",        "latin": "咯斯盒",     "url": "#" },
+    { "name": "Podcast Addict", "latin": "播客成癮",   "url": "#" },
+    { "name": "Podchaser",      "latin": "追逐者",     "url": "#" },
+    { "name": "Pocketcasts",    "latin": "口袋陣容",   "url": "#" },
+    { "name": "Instagram",      "latin": "@amidon",    "url": "#" },
+    { "name": "Threads",        "latin": "threads",    "url": "#" }
+  ],
+  "bigCta": {
+    "zhTitle": "想和我聊聊嗎 ?",
+    "enTitle": "So, shall we _talk_ ?",
+    "zhBody": "自備麥克風和錄音器材，小白也歡迎。",
+    "enBody": "Tell me a story that needs to be heard — in Taipei, in Paris, or anywhere a microphone fits.",
+    "buttonLabel": "訪談提案 · For a Project →"
+  }
+}
