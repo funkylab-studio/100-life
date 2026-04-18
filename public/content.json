@@ -58,17 +58,61 @@
     }
   ],
   "platforms": [
-    { "name": "Spotify",        "latin": "綠色巨獸",   "url": "#" },
-    { "name": "Apple Podcasts", "latin": "蘋果",       "url": "#" },
-    { "name": "SoundOn",        "latin": "聲浪",       "url": "#" },
-    { "name": "KKBox",          "latin": "可可盒",     "url": "#" },
-    { "name": "MixerBox",       "latin": "混音盒",     "url": "#" },
-    { "name": "Castbox",        "latin": "咯斯盒",     "url": "#" },
-    { "name": "Podcast Addict", "latin": "播客成癮",   "url": "#" },
-    { "name": "Podchaser",      "latin": "追逐者",     "url": "#" },
-    { "name": "Pocketcasts",    "latin": "口袋陣容",   "url": "#" },
-    { "name": "Instagram",      "latin": "@amidon",    "url": "#" },
-    { "name": "Threads",        "latin": "threads",    "url": "#" }
+    {
+      "name": "Spotify",
+      "latin": "綠色巨獸",
+      "url": "https://open.spotify.com/show/3jKdp27RZwoO493dUvWJv0"
+    },
+    {
+      "name": "Apple Podcasts",
+      "latin": "蘋果",
+      "url": "#"
+    },
+    {
+      "name": "SoundOn",
+      "latin": "聲浪",
+      "url": "#"
+    },
+    {
+      "name": "KKBox",
+      "latin": "可可盒",
+      "url": "#"
+    },
+    {
+      "name": "MixerBox",
+      "latin": "混音盒",
+      "url": "#"
+    },
+    {
+      "name": "Castbox",
+      "latin": "咯斯盒",
+      "url": "#"
+    },
+    {
+      "name": "Podcast Addict",
+      "latin": "播客成癮",
+      "url": "#"
+    },
+    {
+      "name": "Podchaser",
+      "latin": "追逐者",
+      "url": "#"
+    },
+    {
+      "name": "Pocketcasts",
+      "latin": "口袋陣容",
+      "url": "#"
+    },
+    {
+      "name": "Instagram",
+      "latin": "@amidon",
+      "url": "#"
+    },
+    {
+      "name": "Threads",
+      "latin": "threads",
+      "url": "#"
+    }
   ],
   "bigCta": {
     "zhTitle": "想和我聊聊嗎 ?",
