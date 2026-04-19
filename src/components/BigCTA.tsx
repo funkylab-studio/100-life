@@ -15,6 +15,7 @@ export default function BigCTA({ cta, ctaUrl }: Props) {
           {rich(cta.enTitle)}
         </h2>
         <div className="big-cta-right">
+          <img className="big-cta-portrait" src="/assets/portrait.png" alt="" />
           <p>
             {cta.zhBody}
             <br />
