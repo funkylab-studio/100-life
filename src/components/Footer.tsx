@@ -17,15 +17,14 @@ export default function Footer() {
         </div>
         <div className="foot-col">
           <h4>Social</h4>
-          <a href="#">Instagram</a>
-          <a href="#">Threads</a>
-          <a href="#">Spotify</a>
+          <a href="https://www.instagram.com/amidonenfrance/" target="_blank">Instagram</a>
+          <a href="https://www.threads.com/@shi8jarvis" target="_blank">Threads</a>
+          <a href="https://open.spotify.com/show/3jKdp27RZwoO493dUvWJv0" target="_blank">Spotify</a>
         </div>
-        <div className="foot-col">
+        {/* <div className="foot-col">
           <h4>Contact</h4>
-          <p>amidon@100life.show</p>
           <p>Taipei — Paris</p>
-        </div>
+        </div> */}
       </div>
       <div className="foot-bottom">
         <span>
